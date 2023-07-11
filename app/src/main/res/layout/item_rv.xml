@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="id"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/sarlavha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sarlavha"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/batafsil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="batafsil"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/sana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="sana"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/zarurligi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="zarurligi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/oxirgi_muddat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="oxirgimuddat"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bajarildi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="bajarildi"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_more_vert_24" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
